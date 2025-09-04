@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="label">
+        <p>❌ Oops! It looks like you've lost connection. Try reconnecting.</p>
+    </div>
+    <main>
+        <div class="banner">
+            <div class="appname">
+                <p style="color: #fff;">Weather App</p>
+            </div>
+            <div class="location">
+                <button onclick="getLocation()">Use my location</button>
+            </div>
+        </div>
+        <div class="input">
+            <input type="text" id="city" placeholder="search...">
+        </div>
+        <div class="content">
+            <div class="inner-content">
+                <div class="page-1">
+                    <div class="image">
+                        <img alt="" id="current_icon">
+                    </div>
+                    <div class="details">
+                        <div class="temp">
+                            <p id="current_temp">30 C</p>
+                            <span id="city_name"></span>
+                        </div>
+                        <div class="name">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="page-2">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="hourly">
+            </div>
+        </div>
+        <div class="content2">
+            <div class="inner">
+                <div class="index">
+                    <div class="air">
+                        <p id="air">3</p>
+                        <p>Air Quality index</p>
+                    </div>
+                </div>
+                <div class="gases">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
