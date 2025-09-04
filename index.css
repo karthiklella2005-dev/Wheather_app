@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(65, 153, 253, 0.5);
+    color: #000;
+}
+.banner{
+    width: 100%;
+    height: 60px;
+    background-color: #0253cd;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px solid #000;
+}
+.appname{
+    width: 30%;
+}
+.appname p{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 30px;
+    border: 0px solid #000;
+}
+.location{
+    width: 60%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+.location button{
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.location button:hover{
+    animation: moveon .2s;
+    background-color: #fff;
+    color: #000 ;
+}
+@keyframes moveon {
+    0%{
+        background-color: transparent;
+    }10%{
+        background-image: linear-gradient(20deg,#fff,#0253cd);
+    }20%{
+        background-image: linear-gradient(40deg,#fff,#0253cd);
+    }30%{
+        background-image: linear-gradient(60deg,#fff,#0253cd);
+    }40%{
+        background-image: linear-gradient(80deg,#fff,#0253cd);
+    }50%{
+        background-image: linear-gradient(100deg,#fff,#0253cd);
+    }60%{
+        background-image: linear-gradient(1200deg,#fff,#0253cd);
+    }70%{
+        background-image: linear-gradient(140deg,#fff,#0253cd);
+    }80%{
+        background-image: linear-gradient(160deg,#fff,#0253cd);
+    }90%{
+        background-image: linear-gradient(180deg,#fff,#0253cd);
+    }100%{
+        background-color: #fff;
+    }
+    
+}
+.label{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label p{
+    background-color: rgba(255,0,0,0.9);
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.input input{
+    width: 50%;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 15px;
+    color: #fff;
+    padding-left: 10px;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content div{
+    border: 0px solid #000;
+}
+.page-1,.inner-content{
+    width: 60%;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.inner-content{
+    border-radius: 30px;
+}
+.page-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image{
+    width: 30%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+.details{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temp p{
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.temp span{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.page-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page-2 div{
+    margin-top: -20px;
+    width: 32%;
+    height: 80px;
+    border:0px solid #000;
+    text-align: center;
+}
+.page-2 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+page1{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pageindex p{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #000;
+}
+.details2{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+}
+.content1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.hourly{
+    width: 99%;
+    height: auto;
+    border: 0px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hourly div{
+    width: "40%";
+    height: "auto";
+    border: "1px solid #fff";
+    margin:"10px 0";
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.hourly p{
+    width: "80%";
+    height: "200px";
+    margin-top: "10px";
+    margin-bottom: "10px"
+}
+.content2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.inner{
+    width: 99%;
+    height: 300px;
+    border: 0px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.index{
+    width: 30%;
+    height: 300px;
+    border: 0px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#air{
+    text-align: center;
+    font-size:100px;
+}
+.gases{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.gases div{
+    margin-top: 20px;
+    width: 32%;
+    height: 120px;
+    border: 0px solid #000;
+}
+.gases p{
+    margin-top: 40px;
+}
+@media (max-width:1000px) {
+    /* css for currently temp content */
+    .inner-content{
+        width: 60%;
+    }
+    .temp p{
+        font-size: 50px;
+        margin-right: 0px;
+        margin-top: -80px;
+    }.temp span{
+        margin-left: 40px;
+    }
+    .image img{
+        margin-top: -40px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .page-2{
+        margin-top: -170px;
+    }
+    /* css for hourly temp content */
+
+}
+@media (max-width:794px) {
+    .inner-content{
+        width: 70%;
+    }
+    .temp p{
+        font-size: 50px;
+        margin-right: 0px;
+        margin-top: -80px;
+    }
+    .image img{
+        margin-top: -40px;
+        margin-left: 20px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .page-2{
+        margin-top: -170px;
+    }
+}
+@media (max-width:734px) {
+    .inner-content{
+        width: 80%;
+    }
+    .temp p{
+        font-size: 50px;
+        margin-right: 0px;
+        margin-top: -80px;
+    }
+    .image img{
+        margin-top: -40px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .page-2{
+        margin-top: -170px;
+    }
+}
+@media (max-width:600px) {
+    .inner-content{
+        width: 80%;
+    }
+    .temp p{
+        font-size: 50px;
+        margin-right: 0px;
+        margin-top: -100px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .page-2{
+        margin-top: -110px;
+    }
+    .image img{
+        width: 150px;
+        height: 150px;
+        margin-top: -20px;
+    }
+}
+@media (max-width:541px) {
+    .inner-content{
+        width: 90%;
+    }
+    .temp p{
+        font-size: 50px;
+        margin-right: 0px;
+        margin-top: -100px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .image img{
+        width: 150px;
+        height: 150px;
+        margin-top: -20px;
+    }
+    .page-2 p{
+        font-size: 15px;
+        margin-top: -50px;
+    }
+    .page-2{
+        margin-bottom: -80px;
+    }
+}
+@media (max-width:467px) {
+    .inner-content{
+        width: 90%;
+    }
+    .temp p{
+        font-size: 30px;
+        margin-right: 0px;
+        margin-top: -150px;
+    }
+    .temp span{
+        font-size: 15px;
+        margin-left: 29px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .image img{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .page-2 p{
+        font-size: 15px;
+        margin-top: -90px;
+    }
+    .page-2{
+        margin-bottom: -120px;
+    }
+}
+@media (max-width:402px) {
+    .inner-content{
+        width: 90%;
+    }
+    .temp p{
+        font-size: 30px;
+        margin-right: 0px;
+        margin-top: -150px;
+    }
+    .temp span{
+        font-size: 15px;
+        margin-left: 29px;
+    }
+    .page-1{
+        justify-content: space-between;
+    }
+    .image img{
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: -20px;
+    }
+    .page-2 p{
+        font-size: 12px;
+        margin-top: -90px;
+    }
+    .page-2{
+        margin-bottom: -120px;
+    }
+}
+@media (max-width:631px){
+    .appname{
+        width: 40%;
+    }
+}
+@media (max-width:471px){
+    .appname{
+        width: 50%;
+        margin-left: 0px;
+    }
+}
+@media (max-width:414px){
+    .appname{
+        width: 50%;
+    }
+    .appname p{
+        font-size: 25px;
+        border: 0px;
+        margin-top: 5px;
+    }
+}@media (max-width:375px){
+    .location button{
+        width: 150px;
+    }
+}
